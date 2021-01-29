@@ -1,0 +1,64 @@
+body {
+  background: $primary-color;
+  font-family: "Ubuntu", sans-serif;
+}
+
+
+
+
+.posts {
+  .item {
+    display: flex;
+    flex-wrap: wrap;
+    border: $border;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    .info {
+      flex: 1 0;
+      padding-left: 10px;
+
+
+      .description {
+        ul {
+          list-style: none;
+          padding: 0px;
+          margin-bottom: 1.5rem;
+          li {
+            margin-top: 1.2rem;
+            margin-bottom: 1.2rem;
+            span {
+              display: inline-block;
+              margin-right: 1rem;
+            }
+          }
+
+          &.episode {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            li {
+              margin: 0px;
+              margin-right: 1rem;
+            }
+          }
+        }
+      }
+
+      .readmore {
+        a {
+          background: aliceblue;
+          padding: 10px;
+        }
+      }
+
+    }
+
+    .img {
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
